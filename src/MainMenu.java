@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.Graphics2D;
 import java.awt.Color;
-import java.awt.event.KeyEvent;
 
 public class MainMenu extends JFrame implements Runnable {
 
@@ -77,7 +76,7 @@ public class MainMenu extends JFrame implements Runnable {
             lastFrameTime = time;
             update(deltaTime);
         }
-//        this.dispose();
-//        return;
+        this.dispose();
+        return;
     }
 }

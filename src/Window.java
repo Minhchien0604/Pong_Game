@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.Graphics2D;
 import java.awt.Color;
-import java.awt.event.KeyEvent;
 
 public class Window extends JFrame implements Runnable {
 
